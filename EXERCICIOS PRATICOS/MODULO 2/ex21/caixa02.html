@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header {
+            background-color: white;
+            padding: 3px;
+        }
+        nav {
+            background-color: rgb(114, 131, 131);
+            padding-top: 3px;
+            padding-bottom: 3px;
+            box-shadow: 4px 4px 5px rgb(0, 0, 0);
+        }
+        h1 {
+            box-shadow: 4px 4px 5px rgb(0, 0, 0);
+            border-radius: 40px;
+        }
+        nav > a {
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            text-decoration: none;
+        }
+        nav > a:hover {
+            text-decoration: underline;   
+        }
+        main {
+            background-color: white;
+            padding:10px;
+            margin: 10px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+
+        }
+        article {
+            background-color: rgb(187, 210, 233);
+            padding: 5px;
+        }
+        article > aside {
+            background-color: lightseagreen;
+        }
+        footer > p{
+            margin: 4px;
+        }
+
+
+
+    </style>
+</head>
+<body>   
+    <!--aprendendo agrupamento de tags-->
+    <!--tags semanticas -->
+    <header>
+        <!--Cabeçalho, n confunda com head (cabeça)-->
+            <h1>Meu site</h1>
+            <nav><a href="#">LINK1</a>
+                <a href="#">LINK2</a>
+                <a href="#">LINK3</a>
+                <a href="#">LINK4</a>
+            </nav>
+        </header>
+        <main>
+            <section = id="assuntos">
+                <h2>ESPORTES</h2>
+
+            </section>
+            <section = id="noticias">
+                <article>
+                    <h2>Noticias do brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolore doloribus quae illo inventore sequi eius aperiam, aliquam ab officiis repudiandae obcaecati, mollitia ipsa, cupiditate modi delectus assumenda iure alias.</p>
+                    <aside>
+                        <p>feito por mim</p>
+                    </aside>
+                </article>
+            </section>
+            <!--Conteudo-->
+        </main>
+        <footer>
+            <p>desenvolvido por Andre</p>
+            <!--roda-pé-->
+        </footer>
+</body>
+</html>

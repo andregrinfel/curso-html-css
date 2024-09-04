@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caixas</title>
+    <style>
+        #principal {
+            /*tamanhos altura e largura*/
+            background-color: antiquewhite;
+            height: 300px;
+            width:300px ;
+            /*borda*/
+            border-width: 10px; /*tamanho*/
+            border-style: solid; /*estilo*/
+            border-color: brown; /*cor*/
+            /*padding, espaço entre a borda e o conteudo*/
+            padding-left: 10px; /*Preenchimento em cima*/
+            padding-right: 10px; /*preenchimento a direita*/
+            padding-bottom: 10px; /*preenchimento em baixo*/
+            padding-left: 10px; /*preenchimento a esquerda*/
+            /*margen*/
+            margin-top: 10px; /*cima*/
+            margin-right: 10px; /*direita*/
+            margin-bottom: 10px; /*baixo*/
+            margin-left: 10px; /*esquerda*/
+            /*outline (espaço que fica dentro da margen tipo uma borda)*/
+            outline-width: 10px; /*tamanho*/
+            outline-style: solid; /*estilo*/
+            outline-color: red; /*cor*/
+        }
+        #segundo {
+            background-color: bisque;
+            height: 300px;
+            width: 300px;
+            /*caixa cenralizada (margem automatica)*/
+            margin: auto;
+            /*simplificando*/
+            /*padding: ordem cima direita baixo esquerda, se for colocar o mesmo valor basta colocar uma vez*/
+            padding: 10px 10px 10px 10px;
+            /*border ordem tamanho estilo e cor*/
+            border: 10px solid red;
+            /*tudo que vale pro padding vale pro margin e tudo que vale pra border vale pro outline*/
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="principal">o H1 e o modelo de caixa box-level</h1>
+    <p>o paragrafo e o modelo de caixa box-level, a tag de ancora <a href="#">'a'</a> e um modelo de caixa inline-level</p>
+    <h1 id="segundo">Outras configurações e resumos</h1>
+
+</body>
+</html>
